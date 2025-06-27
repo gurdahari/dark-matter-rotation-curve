@@ -1,4 +1,3 @@
-![CI](https://github.com/gurdahari/dark-matter-rotation-curve/actions/workflows/python.yml/badge.svg)
 
 
 <p align="center">
