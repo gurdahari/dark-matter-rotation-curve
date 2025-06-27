@@ -1,3 +1,6 @@
+![CI](https://github.com/gurdahari/dark-matter-rotation-curve/actions/workflows/python.yml/badge.svg)
+
+
 <p align="center">
   <img width="360" src="docs/figures/rotation_curve_banner"
        alt="Observed rotation curve stays flat while baryonic prediction falls">
