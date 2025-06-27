@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="360" src="https://raw.githubusercontent.com/gurdahari/dm-assets/main/flat_curve.svg" alt="flat rotation curve">
+  <img width="360" src="docs/figures/rotation_curve_banner.jpg" alt="flat rotation curve">
 </p>
 
 # 🌌  Dark‑Matter Rotation‑Curve Toolkit
