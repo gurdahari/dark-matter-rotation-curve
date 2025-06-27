@@ -1,8 +1,13 @@
+# .github/workflows/python.yml
 name: Python package
 
 on:
-  push:        { branches: [ "main" ] }
-  pull_request:{ branches: [ "main" ] }
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -10,7 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
@@ -22,11 +28,10 @@ jobs:
       - name: Smoke test – import module
         run: |
           python - <<'PY'
-          import importlib, sys
+          import importlib
           importlib.import_module("analysis_Rotation")
           print("✅ import OK")
           PY
 
-      - name: Smoke test – run script
-        run: |
-          python analysis_Rotation.py -h
+      - name: Smoke test – help message
+        run: python analysis_Rotation.py -h
