@@ -1,7 +1,14 @@
 <p align="center">
-  <img width="360" src="docs/figures/rotation_curve_banner.jpg"
+  <img width="360" src="docs/figures/rotation_curve_banner"
        alt="Observed rotation curve stays flat while baryonic prediction falls">
 </p>
+
+> **What’s happening in this picture?**  
+> Imagine cars going around a racetrack: the farther out they drive, the slower they should go, right?  
+> But here, the little dots (the cars) stay just as fast no matter how far out they are.  
+> The thin line shows how fast they **should** slow down if we only count the stuff we can see (stars and gas).  
+> Since they don’t slow down, there must be something invisible adding extra pull—this is what scientists call **dark matter**!
+
 
 # 🌌  Dark‑Matter Rotation‑Curve Toolkit
 
